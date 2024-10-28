@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your One Page Website</title>
+        <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Body Style */
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1000px;
+            width: 90%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Logo and Header */
+        .logo img {
+            width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+        #tt{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        /* Two Sides Section */
+        .two-sides {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            justify-content: space-between;
+        }
+
+        .two-sides div {
+            flex: 1 1 45%;
+            text-align: left;
+            min-width: 300px;
+        }
+
+        .two-sides h2 {
+            color: #6ec177;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .two-sides ul {
+            list-style: disc;
+            text-align: left;
+            padding-left: 20px;
+            color: #555;
+        }
+
+        /* Cases Section */
+        .cases-container {
+            background-color: #f3f3f3;
+            border-radius: 8px;
+            padding: 40px 20px;
+            margin-top: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .cases-container h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.2rem;
+        }
+
+        .case {
+            display: inline-block;
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            color: #555;
+            text-align: left;
+        }
+
+        .case h2 {
+            font-size: 1.6rem;
+            color: #6ec177;
+            margin-bottom: 10px;
+        }
+
+        /* Quote Section */
+        .quote-section {
+            margin-top: 30px;
+            padding: 20px;
+        }
+
+        .quote-section h1 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .quote-section p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* Contact Section */
+        .contact {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact h1 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            color: #555;
+            margin: 5px 0;
+            font-size: 1rem;
+        }
+
+        .contact a {
+            color: #6ec177;
+            text-decoration: none;
+        }
+
+        /* Social Media Links */
+        .social-media {
+            margin-top: 10px;
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #6ec177;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #333;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .two-sides {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .two-sides div {
+                width: 100%;
+                text-align: center;
+            }
+
+            .case {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+    </head>
+    <body>
+
+        <!-- Logo and Main Heading -->
+        <div class="container">
+            <div class="logo">
+                <img src="metex.png" alt="Logo">
+            </div>
+            <h1 id="tt" dir="rtl">تحب تبدى <span dir="ltr">Brand</span>
+                متاعك؟</h1>
+
+            <!-- Two-Sides Block -->
+            <div class="two-sides">
+                <div>
+                    <h2>علينا</h2>
+                    <ul>
+                        <li>Production complète de vos vêtements pour votre
+                            marque</li>
+                        <br>
+                        <li>Emballage professionnel pour une présentation
+                            soignée</li>
+                        <br>
+                        <li>Même une Livraison directement à vos clients et sur
+                            toute la tunisie</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>عليك</h2>
+                    <ul>
+                        <li>Marketing et relation client</li>
+                        <li>Expansion de votre marque</li>
+                        <li>Choix du design des modèles</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Cases Section -->
+            <div class="cases-container">
+                <h1>تكلفة</h1>
+                <div class="case">
+                    <h2>100 DT / mois</h2>
+                </div>
+                <div class="case">
+                    <h2>Coût du produit</h2>
+                </div>
+                <div class="case">
+                    <h2>Livraison directe au client 7 DT</h2>
+                </div>
+                <div class="case1">
+                    <h2>*Production en quantité 10% remise</h2>
+                </div>
+            </div>
+
+            <!-- Quote Section -->
+            <div class="quote-section">
+                <h1>مهمتنا</h1>
+                <p>"faciliter le lancement d'une marque et encourager les nouveaux entrepreneurs."</p>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact">
+                <h1>Contactez nous</h1>
+                <p>Appelez-nous: <a href="tel:+21699898873">+216 99 898
+                        873</a></p>
+                <p>Notre adresse: <a href="https://maps.google.com"
+                        target="_blank">Google Maps</a></p>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Tiktok</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </body>
+</html>
